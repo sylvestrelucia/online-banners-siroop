@@ -1,0 +1,59 @@
+<div class="b-retargeting__wrapper">
+    <div class="b-retargeting__branding">
+        <svg class="b-retargeting__branding-border" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon points="0,100 100,100 100,0" />
+        </svg>
+        <div class="b-retargeting__branding-logo">
+            <div class="b-retargeting__logo">
+                <svg class="a-svg-icon a-svg-icon--filled">
+                    <use xlink:href="#logo">
+                    </use>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="slider js_slider">
+        <div class="frame js_frame">
+            <ul class="slides js_slides">
+                {{#Google_Merchant_Center}}
+                <li class="b-retargeting__slide--vertical b-retargeting__slide js_slide">
+                    <a class="b-retargeting__link" href="{{ offer_landing_page_derived.Url }}">
+                        <div class="b-retargeting__product-image">
+                            <img src="{{ offer_image_derived.image200.url }}" srcset="{{ offer_image_derived.image200.url }} 1x, {{ offer_image_derived.image400.url }} 2x">
+                        </div>
+                        <div class="b-retargeting__product-desc">{{ offer_title }}</div>
+                        <div class="b-retargeting__product-price">
+                            <!--div class="m-price m-price--striked"><span class="m-price__currency">CHF</span><span class="m-price__value">{{ offer_regular_price.priceString }}</span></div-->
+                            <div class="m-price m-price--reduced"><!--span class="m-price__currency">CHF</span--><span class="m-price__value">{{ offer_regular_price.priceString }}</span></div>
+                        </div>
+                        <div class="b-retargeting__product-cta">
+                            <button class="a-button-cta a-button-cta--cleared">
+                                Jetzt shoppen<div class="a-button-cta__icon">
+                                <svg class="a-svg-icon a-svg-icon--stroked a-svg-icon--top">
+                                    <use xlink:href="#arrow-right">
+                                    </use>
+                                </svg>
+                            </div>
+                            </button>
+                        </div>
+                    </a>
+                </li>
+                {{/Google_Merchant_Center}}
+            </ul>
+            <div class="js-slide-nav js-slide-nav--prev">
+                <span class="js_prev prev">
+                    <svg class="a-svg-icon a-svg-icon--stroked a-svg-icon--top">
+                        <use xlink:href="#arrow-left"></use>
+                    </svg>
+                </span>
+            </div>
+            <div class="js-slide-nav js-slide-nav--next">
+                <span class="js_next next">
+                    <svg class="a-svg-icon a-svg-icon--stroked a-svg-icon--top">
+                        <use xlink:href="#arrow-right"></use>
+                    </svg>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

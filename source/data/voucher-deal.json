@@ -1,0 +1,68 @@
+{
+  "items": {
+    "36676183": {
+      "data": {
+        "desc": "20% auf Velos & Funsport",
+        "brand": "siroop AG",
+        "legal": {
+          "first": "Nicht kumulierbar.",
+          "second": "Gültig von 27.2 bis 05.3"
+        },
+        "cta": {
+          "text": "Jetzt kaufen"
+        },
+        "product": {
+          "badge": "percent-20",
+          "color": "teal-50",
+          "image": {
+            "thumbnail": "50x50.jpg",
+            "small": "100x100.jpg",
+            "medium": "200x200.jpg",
+            "large": "400x400.jpg",
+            "larger": "800x800.jpg"
+          }
+        },
+        "naming": {
+          "category": "l1-sf",
+          "content_type": "w-voucher",
+          "additional": "z-velos_funsport_20_kw9"
+        },
+        "price": {
+          "striked": "1/1/2018"
+        }
+      }
+    },
+    "5e399ced": {
+      "data": {
+        "desc": "20% auf Fasnachtskostüme & -accessoires von",
+        "brand": "Brack",
+        "legal": {
+          "first": "Nicht kumulierbar.",
+          "second": "Gültig von 02.2 bis 05.2"
+        },
+        "cta": {
+          "text": "Jetzt kaufen"
+        },
+        "product": {
+          "badge": "percent-20",
+          "color": "teal-50",
+          "image": {
+            "thumbnail": "50x50.jpg",
+            "small": "100x100.jpg",
+            "medium": "200x200.jpg",
+            "large": "400x400.jpg",
+            "larger": "800x800.jpg"
+          }
+        },
+        "naming": {
+          "category": "l1-mu",
+          "content_type": "w-voucher",
+          "additional": "z-buchhaus_15_kw3"
+        },
+        "price": {
+          "striked": "1/1/2018"
+        }
+      }
+    }
+  }
+}

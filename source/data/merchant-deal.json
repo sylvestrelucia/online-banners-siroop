@@ -1,0 +1,132 @@
+{
+  "items": {
+    "bb169e4b": {
+      "data": {
+        "desc": "20% auf Stefans Kleider & -accessoires von",
+        "brand": "Sarbach",
+        "legal": {
+          "first": "Nicht kumulierbar.",
+          "second": "Gültig von 02.2 bis 05.2"
+        },
+        "cta": {
+          "text": "Jetzt kaufen"
+        },
+        "product": {
+          "badge": "percent-20",
+          "color": "teal-50",
+          "image": {
+            "thumbnail": "50x50.jpg",
+            "small": "100x100.jpg",
+            "medium": "200x200.jpg",
+            "large": "400x400.jpg",
+            "larger": "800x800.jpg"
+          }
+        },
+        "naming": {
+          "category": "l1-wh",
+          "content_type": "w-voucher",
+          "additional": "z-fasnachtskostueme_20_kw5"
+        },
+        "price": {
+          "striked": "1/1/2018"
+        }
+      }
+    },
+    "47d345b0": {
+      "data": {
+        "desc": "40% auf Erotik & -accessoires von",
+        "brand": "Brack",
+        "legal": {
+          "first": "Nicht kumulierbar.",
+          "second": "Gültig von 02.2 bis 05.2"
+        },
+        "cta": {
+          "text": "Jetzt kaufen"
+        },
+        "product": {
+          "badge": "percent-40",
+          "color": "teal-30",
+          "image": {
+            "thumbnail": "50x50.jpg",
+            "small": "100x100.jpg",
+            "medium": "200x200.jpg",
+            "large": "400x400.jpg",
+            "larger": "800x800.jpg"
+          }
+        },
+        "naming": {
+          "category": "l2-mu",
+          "content_type": "w-voucher",
+          "additional": "z-buchhaus_15_kw4"
+        },
+        "price": {
+          "striked": "1/2/2018"
+        }
+      }
+    },
+    "98e8ce99": {
+      "data": {
+        "desc": "40% auf Erotik & -accessoires von",
+        "brand": "Brack",
+        "legal": {
+          "first": "Nicht kumulierbar.",
+          "second": "Gültig von 02.2 bis 05.2"
+        },
+        "cta": {
+          "text": "Jetzt kaufen"
+        },
+        "product": {
+          "badge": "percent-50",
+          "color": "teal-50",
+          "image": {
+            "thumbnail": "50x50.jpg",
+            "small": "100x100.jpg",
+            "medium": "200x200.jpg",
+            "large": "400x400.jpg",
+            "larger": "800x800.jpg"
+          }
+        },
+        "naming": {
+          "category": "l3-mu",
+          "content_type": "w-voucher",
+          "additional": "z-buchhaus_15_kw5"
+        },
+        "price": {
+          "striked": "1/3/2018"
+        }
+      }
+    },
+    "a16e397e": {
+      "data": {
+        "desc": "40% auf Erotik & -accessoires von",
+        "brand": "Brack",
+        "legal": {
+          "first": "Nicht kumulierbar.",
+          "second": "Gültig von 02.2 bis 05.2"
+        },
+        "cta": {
+          "text": "Jetzt kaufen"
+        },
+        "product": {
+          "badge": "percent-50",
+          "color": "teal-50",
+          "image": {
+            "thumbnail": "50x50.jpg",
+            "small": "100x100.jpg",
+            "medium": "200x200.jpg",
+            "large": "400x400.jpg",
+            "larger": "800x800.jpg"
+          }
+        },
+        "naming": {
+          "category": "l3-mu",
+          "content_type": "w-voucher",
+          "additional": "z-buchhaus_15_kw5"
+        },
+        "price": {
+          "striked": "1/4/2018"
+        }
+      }
+    }
+  }
+}

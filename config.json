@@ -1,0 +1,17 @@
+{
+  "banners": {
+    "types": ["voucher-deal", "merchant-deal", "product-deal", "retargeting" ],
+    "static": ["voucher-deal", "merchant-deal", "product-deal" ],
+    "dynamic": [ "retargeting-dev", "prospective-dev", "retargeting-prod", "prospective-prod" ],
+    "formats": ["160x600","300x250", "300x600", "320x160", "728x90", "800x250", "970x250", "994x250"],
+    "images": ["50x50", "100x100", "200x200", "400x400", "800x800"]
+  },
+  "sheets": {
+    "id": "1WTqvEYtfxTTAxat7yuplbz5kMKPJupRzOsWtw4CxE2A",
+    "tabs": ["voucher-deal", "merchant-deal", "product-deal"],
+    "range": ["!A2:N"]
+  },
+  "server": {
+    "port": "8000"
+  }
+}

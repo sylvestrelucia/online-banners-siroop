@@ -1,0 +1,41 @@
+<a href="javascript:window.open(window.clickTag)">
+<div class="b-voucher-deal__wrapper">
+    <div class="b-voucher-deal__badge">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <use xlink:href="#{{ data.product.badge }}"></use>
+        </svg>
+    </div>
+    <div class="b-voucher-deal__product-image">
+        <img src="100x100.jpg" srcset="100x100.jpg 1x, 200x200.jpg 2x">
+    </div>
+    <div class="b-voucher-deal__product-wrapper">
+        <div class="b-voucher-deal__product-desc">{{ data.desc }}</div>
+        <div class="b-voucher-deal__product-brand">{{ data.brand }}</div>
+        <div class="b-voucher-deal__product-cta">
+            <div class="a-button-cta">
+                {{ data.cta.text }}
+                <div class="a-button-cta__icon">
+                    <svg class="a-svg-icon a-svg-icon--stroked a-svg-icon--top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <use xlink:href="#arrow-right">
+                        </use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="b-voucher-deal__branding">
+        <svg class="b-voucher-deal__branding-border" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <polygon points="0,100 100,100 100,0"/>
+        </svg>
+        <div class="b-voucher-deal__branding-logo">
+            <div class="b-voucher-deal__logo">
+                <svg class="a-svg-icon a-svg-icon--filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <use xlink:href="#logo">
+                    </use>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="b-voucher-deal__branding-legal">{{ data.legal.first }}<br />{{  data.legal.second }}</div>
+</div>
+</a>

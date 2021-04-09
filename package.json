@@ -1,0 +1,49 @@
+{
+  "name": "siroop-online-banners",
+  "description": "Siroop Online Banners for Doubleclick",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Siroop",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ProjectThor/online-banners.git"
+  },
+  "scripts": {
+    "develop": "concurrently \"node server.js\" \"gulp\" \"gulp watch\"",
+    "build": "gulp build:all",
+    "archive": "node archive.js $BANNER $FORMAT",
+    "snapshot": "node snapshot.js $BANNER $FORMAT",
+    "spreadsheet": "node spreadsheet.js && node map.js",
+    "update": "node update.js $BANNER $ID"
+  },
+  "dependencies": {
+    "archiver": "^2.1.1",
+    "ecstatic": "^3.1.1",
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^25.0.0",
+    "is-reachable": "^2.4.0",
+    "mac-open": "^0.1.3",
+    "node-run-cmd": "^1.0.1",
+    "portscanner": "^2.1.1"
+  },
+  "devDependencies": {
+    "@siroop/kvasir": "git+ssh://git@github.com/ProjectThor/kvasir.git#develop",
+    "concurrently": "^3.5.1",
+    "del": "^3.0.0",
+    "electroshot": "^1.4.0",
+    "glob": "^7.1.2",
+    "gulp": "^4.0.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-inject-css": "^0.3.10",
+    "gulp-inject-partials": "^1.0.3",
+    "gulp-inline-css": "^3.1.2",
+    "gulp-mustache": "^3.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-responsive": "^2.9.0",
+    "mustache": "^2.3.0",
+    "node-cmd": "^3.0.0",
+    "uglify-js": "^3.3.8",
+    "vinyl-paths": "^2.1.0"
+  }
+}

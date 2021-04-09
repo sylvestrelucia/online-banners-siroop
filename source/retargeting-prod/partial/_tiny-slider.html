@@ -1,0 +1,28 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.5.0/min/tiny-slider.js"></script>
+<script>
+
+    var slider = tns({
+        container: '.js_slides',
+        items: SLIDER_ITEMS,
+        slideBy: 1,
+        autoplay: true,
+        controls: false,
+        autoplayHoverPause: true,
+        autoplayButtonOutput: false,
+        autoplayText: '',
+        autoplayTimeout: '2000',
+        touch: true,
+        mouseDrag: true,
+        nav: false,
+        lazyload: true,
+        axis: SLIDER_AXIS
+    });
+
+    document.querySelector('.js_prev').onclick = function () {
+        slider.goTo('prev');
+    };
+
+    document.querySelector('.js_next').onclick = function () {
+        slider.goTo('next');
+    };
+</script>

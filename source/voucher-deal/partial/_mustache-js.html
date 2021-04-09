@@ -1,0 +1,35 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+<script>
+    const targetContainer = document.querySelector('.target-output');
+    const template = document.querySelector('#mustache').innerHTML;
+    const src = "merchant-deal.json";
+    const clickTagContainer = document.querySelector('#bg-exit');
+
+    clickTagContainer.addEventListener('click', function() {
+        window.open(window.clickTag);
+    }, false);
+
+    function ajax_get(url, callback) {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+                console.log('responseText:' + xmlhttp.responseText);
+                try {
+                    var data = JSON.parse(xmlhttp.responseText);
+                } catch(err) {
+                    console.log(err.message + " in " + xmlhttp.responseText);
+                    return;
+                }
+                callback(data);
+            }
+        };
+
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+    }
+
+    ajax_get(src, function(data) {
+        targetContainer.innerHTML = Mustache.render(template, data);
+    });
+
+</script>
